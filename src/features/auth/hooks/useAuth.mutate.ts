@@ -13,7 +13,7 @@ export const useLoginMutate = () => {
 export const useRegistrasi = () => {
   return useMutation({
     mutationKey: ['register'],
-    mutationFn: async (data: { email: string; password: string; name: string }) => {
+    mutationFn: async (data: { email: string; password: string }) => {
       return await register(data)
     }
   })

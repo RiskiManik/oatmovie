@@ -19,7 +19,10 @@
     "@tanstack/vue-query": "^5.24.1",
     "@tanstack/vue-query-devtools": "^5.24.1",
     "appwrite": "^13.0.2",
+    "axios": "^1.6.7",
+    "oh-vue-icons": "1.0.0-rc3",
     "pinia": "^2.1.7",
+    "swiper": "^11.0.7",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },

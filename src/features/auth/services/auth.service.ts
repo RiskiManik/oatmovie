@@ -5,8 +5,8 @@ const login = async (data: { email: string; password: string }) => {
   return promise
 }
 
-const register = async (data: { email: string; password: string; name: string }) => {
-  await account.create(ID.unique(), data.email, data.password, data.name)
+const register = async (data: { email: string; password: string }) => {
+  await account.create(ID.unique(), data.email, data.password)
 
   login({ email: data.email, password: data.password })
 }
