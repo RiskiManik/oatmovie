@@ -17,8 +17,8 @@ onMounted(() => {
 
 <template>
   <main>
-    <LoginFormVue v-if="isLoginPage" />
-    <SignForm v-else-if="isRegisterPage" />
-    <MovieList v-else />
+    <!-- <LoginFormVue v-if="isLoginPage" />
+    <SignForm v-else-if="isRegisterPage" /> -->
+    <MovieList />
   </main>
 </template>
